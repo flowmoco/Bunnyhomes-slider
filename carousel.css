@@ -8,7 +8,7 @@ html, body, #carousel ul, .carousel-item {
 	max-width: 100%;
     width: 100%;
 	height: auto;
-	position: absolute;
+	position: relative;
 }
 
 #carousel-wrapper {

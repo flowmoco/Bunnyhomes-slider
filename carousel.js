@@ -11,11 +11,12 @@ $(function() {
 	var animationSpeed = 1000;
 	var animationPause = 5000;
 	var currentSlide = 1;
+    var windowWidth;
    
 	// initial animation setup
     
     function setup() {
-        var windowWidth = $(window).width();
+        windowWidth = $(window).width();
         $wrapper.css('width', windowWidth);
         $container.css('width', windowWidth);
         $ul.css('width', windowWidth * numberOfSlides);

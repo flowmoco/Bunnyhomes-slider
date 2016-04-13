@@ -1,0 +1,76 @@
+html, body, #carousel ul, .carousel-item {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+#carousel-container {
+	max-width: 100%;
+    width: 100%;
+	height: auto;
+	position: absolute;
+}
+
+#carousel-wrapper {
+	overflow: hidden;
+}
+
+#carousel {
+	position: relative;
+	overflow: hidden;
+	height: auto;
+	left: 0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#carousel ul {
+	list-style: none;
+}
+
+.carousel-item {
+	position: relative;
+	max-width: 100%;
+	width: auto;
+	float: left;
+	list-style: none;
+	left: 0px;
+	background-color: blue;
+    margin: 0px;
+    padding: 0px;
+}
+
+.carousel-images {
+	width: 100%;
+	float: left;
+}
+
+.carousel-image {
+	width: 100%;
+	display: inline-block;
+}
+
+.carousel-description {
+	width: auto;
+	padding: 20px;
+	float: left;
+    background-color: rgba(0, 0, 0, .75);
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+}
+
+.carousel-title {
+	color: white;
+	font-size: 1.5em;
+	font-weight: 500;
+    text-align: center;
+}
+
+.carousel-subtitle {
+	color: white;
+	font-size: 1.5em;
+	font-weight: 500;
+    text-align: center;
+}
